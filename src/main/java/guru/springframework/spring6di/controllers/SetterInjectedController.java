@@ -11,8 +11,7 @@ public class SetterInjectedController {
 
     private GreetingService greetingService;
 
-    // Adding qualifiers to give a name ot the beans
-    @Qualifier("setterGreetingService")
+    @Qualifier("setterGreetingBean")
     @Autowired
     public void setGreetingService(GreetingService greetingService) {
         this.greetingService = greetingService;
