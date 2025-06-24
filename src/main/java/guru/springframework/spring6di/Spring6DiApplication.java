@@ -1,9 +1,9 @@
-package zeyzey.spring_6_di;
+package guru.springframework.spring6di;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import zeyzey.spring_6_di.controllers.MyController;
+import guru.springframework.spring6di.controllers.MyController;
 
 @SpringBootApplication
 public class Spring6DiApplication {
